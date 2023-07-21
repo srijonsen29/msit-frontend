@@ -10,3 +10,36 @@
 {
     width:20px; height:25px;
 }
+.button
+{
+    opacity: 1;
+    transform: translateY(100px);
+    animation: pulse 3s forwards;
+}
+.animation
+{
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 3s ease-in-out forwards;
+}
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
