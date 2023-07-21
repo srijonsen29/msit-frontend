@@ -10,10 +10,12 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-warning">
+
+  <nav class="navbar navbar-expand-lg bg-warning fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Meghnad_Saha_Institute_of_Technology_Logo.svg/1200px-Meghnad_Saha_Institute_of_Technology_Logo.svg.png" id="img-icon">
@@ -34,7 +36,7 @@
               More
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="admission.html">Admission</a></li>
+              <li><a class="dropdown-item" href="admission.html">Admission <span class="badge bg-secondary button">New</span></a></li>
               <li><a class="dropdown-item" href="placements.html">Placement</a></li>
             </ul>
           </li>
@@ -45,7 +47,8 @@
       </div>
     </div>
   </nav>
-  <ul class="nav nav-tabs margintop mb-3">
+
+  <ul class="nav nav-tabs margintop mb-3" style="margin-top: 67px;">
     <li class="nav-item">
       <a class="nav-link active" aria-current="page" href="#">Home</a>
     </li>
@@ -56,14 +59,16 @@
       <a class="nav-link" href="departments.html">Departments</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link disabled">Upcoming events <span class="badge bg-secondary">New</span></a>
+      <a class="nav-link disabled">Upcoming events </a>
     </li>
   </ul>
+
   <div class="alert alert-warning alert-dismissible fade show" role="alert">
     <strong>Alert!</strong> Admissions are now open
     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
   </div>
-  <div id="carouselExample" class="carousel slide container-fluid">
+
+  <div id="carouselExample" class="carousel slide container-fluid button" style="padding: 20px;">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="https://msit.edu.in/assets/images/msit/1534241996_6_thumb.jpg" class="d-block w-100 img-sizer" alt="...">
@@ -87,7 +92,10 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+
+  <div class="animation container">
   <h1 style="text-align: center;">Welcome To Meghnad Saha Institute Of Technology</h1>
+
   <ul>
     <li>Our mission is to inculcate a sense of innovation, design and entrepreneurship amongst the students through outcome based learning.</li>
     <li>To encourage and facilitate faculty, researchers and students to work synergistically across the boundaries of various disciplines.</li>
@@ -96,6 +104,7 @@
     <li>To inculcate a high regard for ethical principles and human values and to pursue knowledge as a process of lifelong learning.</li>
     <li>Our vision is to emerge as a globally competent academic institute, excelling in research and innovation by inculcating knowledge of science, engineering, technology and management, striving for the growth of socially responsible individuals.</li>
   </ul>
+</div>
 
 <footer class="py-3 my-4 bg-warning mb-0">
     <ul class="nav justify-content-center border-bottom-warning pb-3 mb-3">
@@ -110,6 +119,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
     crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
 </body>
 
 </html>
